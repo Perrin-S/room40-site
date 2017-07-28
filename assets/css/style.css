@@ -406,7 +406,7 @@ ul {
     padding: 7px;
 }
 
-.blue-section {
+.bluesection {
     background-color: #0ABCEB;
     color: white;
     margin: auto;
@@ -415,7 +415,7 @@ ul {
     padding-bottom: 40px;
 }
 
-.blue-section-subtext {
+.bluesection-subtext {
     max-width: 200px;
     max-width: 250px;
     line-height: 22px;
@@ -507,3 +507,15 @@ ul {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+}
+

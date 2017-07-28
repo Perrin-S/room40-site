@@ -17,6 +17,8 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
 </head>
 
 <body>
@@ -61,6 +63,28 @@
 
 </div><!--hero-background-->
 
+    <!-- Email-Section
+  ================================================== -->
+<div class="bluesection">
+    <form method="post" id="form" class="form" name="form">
+        <label for="fname">First Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+        <br>
+        <label for="year">Year group</label><br>
+        <input type="text" id="homeroom" name="homeroom" placeholder="Your Homeroom..">
+        <br>
+        <label for="lname">Song</label><br>
+        <input type="text" id="song" name="song" placeholder="Song request...">
+        <br>
+        <br>
+        <div align="center" class="g-recaptcha" data-sitekey="6Ler1yoUAAAAACGoeiozuPSfVi06AY2fU-nvO10f"></div>
+        <input class="btn submit-btn" type="submit" value="Submit">
+    </form>
+</div>
+    <!--email-form-div-->
+
+    <div id="newsletter-loading-div"></div>
+    <!--email-form-->
 
 <!-- Features
   ================================================== -->
@@ -247,23 +271,7 @@
 
 </div> <!--team-section--->
 >
-<!-- Email-Section
-  ================================================== -->
-<!--
-<div class="blue-section">
-    <h3 class="blue-section-header bold"> CODING SKILLS?</h3>
-    <h4 class="blue-section-subtext light">Join us and help improve our website! We are open source on github! To start fork the project and work from there. Thanks!</h4>
 
-    <div class="email-form-div">
-
-        <a href="https://github.com/ronan-dean/room40-site" class="btn submit-btn"><h5>Join</h5></a>
-           
-    </div>
-    <!--email-form-div-->
-
-    <div id="newsletter-loading-div"></div>
-    <!--email-form-->
-</div>-->
 <!--blue-section-->
 
 <!-- Footer
@@ -286,6 +294,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
+        <script src="http://malsup.github.com/jquery.form.js"></script> 
 
 <script src="assets/js/script.js"></script>
 
